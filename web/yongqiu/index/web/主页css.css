@@ -1,0 +1,41 @@
+body{
+    background-image: url(../web/images/老婆酱.jpg);
+    
+    background-size: cover;
+    background-position: center 0;
+}
+#dashuaibi{
+    background-image: url(../web/images/老婆.jpg);
+    background-repeat: no-repeat;
+    background-position: center 0;
+    border-color: black;
+    border-style: double;
+    width: 150px;
+    height: 300px;
+    text-align: center;
+    float: right;
+}
+#dashuaibi a:link{
+color:aqua;
+}
+#dashuaibi a:visited{
+    color: blueviolet;
+}
+#dashuaibi a:hover{
+    color: yellow;
+}
+#juju{
+    border: 1px solid rgba(0, 140, 255, 0.2);
+    float:left;
+    background-color: rgba(0, 140, 255, 0.2);
+    position: fixed;
+    top: 280px;
+    right: 10px;
+}
+
+#yiu{
+    position: absolute;
+    top: 410px;
+    left: 9px;
+    float:right;
+}

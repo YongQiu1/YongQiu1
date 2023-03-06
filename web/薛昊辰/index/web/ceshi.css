@@ -1,0 +1,101 @@
+body{
+    background:rgba(255, 255, 255, 0.7) url(../images/真昼.jpg) no-repeat;
+    background-size:cover;
+    background-attachment:fixed;
+}
+div.mulu{
+    border: 1px solid rgba(0, 140, 255, 0.2);
+    float:left;
+    background-color: rgba(0, 140, 255, 0.2);
+    position: fixed;
+    top: 280px;
+    right: 10px;
+}
+div.mulu h3{
+    text-align: center;
+}
+div.mulu a:link{
+    color: yellow;
+}
+div.mulu a:visited{
+    color: purple;
+}
+div.mulu a:hover{
+    color: blue;
+}
+div.zhuiming{
+    background: rgba(255, 193, 203,0.6);
+    text-align: center;
+    padding: 50px 0px 50px 0px;
+}
+div.zhuiming h1{
+    color: yellow;
+}
+div.hutao{
+    background-color:rgba(255, 0, 0, 0.6) ;
+    color: yellow;
+    text-align: center;
+}
+div.hutao h2{
+    color: rgb(21, 255, 0);
+}
+div.kangna{
+    padding: 20px 30px 20px 30px;
+    background-color:rgba(128, 0, 128, 0.6) ;
+}
+span.hu{
+    color: brown;
+}
+span.tao{
+    color: cyan;
+}
+span.tianshi{
+    color: orange;
+}
+#all{
+    width: 1200px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    margin-left: auto;
+    margin-right: auto;
+}
+h1.dabiaoti{
+    text-align: center;
+}
+#tubiao{
+    position: absolute;
+    top: 10px;
+    left: 10px;
+    width: 10%;
+}
+.daohang ul li.selected{
+    background-color: rgba(246, 250, 8, 0.5);
+}
+.daohang{
+    border: 1px solid rgba(0, 140, 255, 0.2);
+    float: left;
+    background-color: rgba(0, 140, 255, 0.2);
+    position: fixed;
+    top: 280px;
+    left: 10px;
+}
+main.huangyu{
+    text-align: center;
+}
+.daohang li{
+    list-style-type: square;
+}
+div.denglu{
+    float: right;
+    position: absolute;
+    top: 30px;
+    right: 150px;
+}
+footer.footer{
+    background-color: blue;
+    text-align: center;
+    position: fixed;
+    bottom: 0px;
+    left: 0px;
+    right: 0px;
+}

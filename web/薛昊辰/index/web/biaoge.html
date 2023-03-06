@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="zh-cmn-Hans">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>表格测试</title>
+    <link type="text/css" rel="stylesheet" href="../web/biaoge.css">
+    <nav class="daohang">
+        <h3>哦!一个导航页!</h3>
+        <ul>
+            <li><a href="../web/ceshi.html">前往主页</a></li>
+            <li><a href="../web/start.html">前往龙炎黄雨</a></li>
+            <li class="selected"><a href="../web/biaoge.html">前往试做表格</a></li>
+            <li><a href="../web/rensheng.html">前往小游戏</a></li>
+        </ul>
+    </nav>
+</head>
+<body>
+    <table>
+        <caption>
+            这是一个标题
+        </caption>
+        <tr>
+            <th class="th">类型1</th>
+            <th class="th">类型2</th>
+            <th class="th">类型3</th>
+            <th class="th">类型4</th>
+        </tr>
+        <tr>
+            <td>数据1</td>
+            <td>数据2</td>
+            <td>数据3</td>
+            <td>数据4</td>
+        </tr>
+        <tr>
+            <td class="style">数据5</td>
+            <td rowspan="2" class="style">数据6</td>
+            <td class="style">数据7</td>
+            <td rowspan="2" class="style">数据8</td>
+        </tr>
+        <tr>
+            <td>数据9</td>
+            <td>
+                <table>
+                    <tr>
+                        <th>类型5</th>
+                        <td>数据10</td>
+                    </tr>
+                    <tr>
+                        <th>类型6</th>
+                        <td>数据11</td>
+                    </tr>
+                </table>
+            </td>
+        </tr>
+    </table>
+</body>
+</html>

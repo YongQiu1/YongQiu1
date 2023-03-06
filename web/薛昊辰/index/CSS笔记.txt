@@ -1,0 +1,66 @@
+<style type="text/css">开始css内部样式的编辑
+（可以不打type直接<style>）
+或者使用
+<link type="text/css" rel="stylesheet" href="XXX.css">连接到外部样式表
+还可以使用
+<h1 style="background:red;">示例</h1>
+直接在行内引入css样式
+样式优先级
+行内样式>内部样式=外部样式
+body{
+background-color:red;
+}
+以上为把<body>部分背景变为红色的语句示例。使用“rgb（X,X,X)”以自己调节颜色(百分比或数字最高255)
+p{background-color:red;}
+把<p>的背景色变为红色
+“border:1px soild gray”添加一条1像素粗细的灰色实线边框
+“color:XX;”将文字颜色更替为XX色
+“font-family:XXX;”将文字字体更替为XXX字体（有五个字体系列sans-serif，serif，monospace，cursive，fantasy每种字体系列都有大量字体，
+但计算机不一定有安装全部的字体，最终手段为使用sans-serif，当然，你也可以自己引入一个字体文件提供给浏览器。使用自己的字体时需要给字体名加英文引号）
+“@font-face”规则，用于建立一个字体。
+例如：“@font-face{
+font-family:"字体名字"
+src:url(“字体地址”）｝”
+“margin[-left(right)]:X;”元素外边距（括号内为可加可不加）
+“border-bottom:1px solid black;”为文本添加 1像素 实线 黑色 下划线（dotted虚线）
+“XX.XXX{………}”为XXX类的<XX>更改样式，也可以只写“.XXX{…}”一键为该类别全部更改
+“text-align”将文本左对齐居中或右对齐
+“letter-spacing”在字母之间设置间距
+“font-weight:(lighter,normal,bold,bolder)”
+设置文本的粗细
+“font-style:italic;”设置斜体文本
+“list-style”改变列表中列表项的外观
+“left”指定元素左边所在位置
+“padding[-left(right)]:X;”元素内边距（括号内为可加可不加）（px，%，em）
+“background-image:url(“图片地址”)”以图片作为文字背景
+“background-repeat:no-repeat;”使背景图片不重复填充（需要与background-image一起使用）
+(repeat=在水平和垂直方向重复
+no-repeat=图像只显示一次，不重复
+repeat-x=图像只在水平方向重复
+repeat-y=图像只在垂直方向重复
+inherit=按父元素的设置处理）
+“background-position:top left;”将背景图片填充在左上角（需要与background-image一起使用）
+“line-height”设置文本元素的行间距
+“font-size:XX;”让文本变大或者变小（单位可以是px，%，em。分别为像素，百分比，比例。也可以用关键字xx-small，x-small，small，medium，large，x-large，xx-large）
+“text-decoration:XXXX;”为文本添加划线
+（overline---上划线
+underline---下划线
+line-through---删除线）
+“border-style:XXX;”为元素添加XXX边框
+（solid=实线，double=双实线，
+groove=槽线，outset=外凸线，
+dotted=虚线，dashed=波折线，
+inset=内凸线，ridge=脊线
+具体样式在书P386页）
+“border-“方向”-“方向”-radius:“数值”;”设置一个角的圆滑程度
+类的应用：写法“元素.类名”
+或者也可以在元素后跟id
+如“元素.id”
+
+概念
+top-上  bottom-下  left-左  right-右
+“文字”直接输入要求即可，均不用打引号
+
+16进制颜色计算法，例如：#CC6600
+A=10 B=11 C=12 D=13 E=14 F=15
+如“CC”取2位的前一个数字“C=12”乘16，加后一个数字C，结果为12x16+12=204。剩下2位方法相同，最终得到rgb（204,102,0）

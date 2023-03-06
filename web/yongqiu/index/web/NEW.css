@@ -1,0 +1,25 @@
+body
+{
+    background-attachment: fixed;
+    background-image: url(../web/images/怪物圣所.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center 0
+}
+#ll{
+    padding: 10px;
+    border: 1px solid rgba(0, 140, 255, 0.2);
+    float: right;
+    background-color: rgba(0, 140, 255, 0.2);
+    position: fixed;
+    top: 280px;
+    right: 10px;
+
+}
+#huhu{
+    border: aqua;
+    padding: 10px;
+    float:left;
+    border-style: double;
+    border-color: aqua;
+}

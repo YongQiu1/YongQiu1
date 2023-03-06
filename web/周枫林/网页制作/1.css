@@ -1,0 +1,41 @@
+body{
+    background: url(images/wallhaven-8ogr81_1920x1080.png);
+    font-family: 'Courier New', Courier, monospace;
+    font-size: medium;
+    margin: 0px;
+}
+.header{
+    margin: 10px;
+    height: 170px;
+}
+.main{
+    font-size: 105%;
+    padding: 15px;
+    margin: 0px 10px 10px 10px;
+}
+.side{
+    padding: 15px;
+    margin: 0px 10px 10px 10px;
+    float: right;
+}
+.footer{
+    padding: 15px;
+    margin: 10px;
+    clear: right;
+}
+.allcontent{
+    width: 1200px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    margin-left: auto;
+    margin-right: auto;
+}
+p{
+    color:white;
+}
+h1{
+    color: white;
+}
+.hutao{
+    float: right;
+}

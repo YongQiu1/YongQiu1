@@ -1,0 +1,25 @@
+HTML doctype<!doctype html>（加在<html>上方）
+<meta charset="utf-8">告诉浏览器使用的字符编码（加在<head>内部的最上方）
+以上两条为必须添加。
+<html>开始一个html，建议更改为
+<html lang="zh-cmn-Hans">声明页面语言为中文
+<head>开头部分
+<body>身体部分
+<h数字>建立标题数字越小字越大
+<title>页面标题
+<img src:"…">显示图片“…”为路径
+需要添加“alt="…”变为合法（…为无法显示图片时显示的文字）
+<p>开启一个段落
+<p class="XXX">将这个段落分入名为XXX的类中，要加入多个类别的话在每个类名间加一个空格
+<blockquote>添加一个块模块
+<ol>有序序列
+<ul>无序序列
+<li>序列间每段划分符
+<br>相当于回车的换行
+<em>重点符号，被框入的字体会变为斜体
+<a href>用于连接到某个地方 （网站，锚点等等）
+在a后添加target="_blank"变为在新窗口中打开页面
+在链接到的地点后加上#XXXX可以连接到指定页面的id为XXXX的锚点
+<input id="XX" type="text">建立id为XX的文本输入框
+<button>XX</button>建立内容为XX的按钮
+在第一个button的<>内可以添加按下按钮后作用。
