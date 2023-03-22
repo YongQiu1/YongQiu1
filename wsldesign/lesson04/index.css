@@ -1,7 +1,7 @@
 
     p{
     font-family: "Cascadia Mono";
-    color: maroon;
+    color: rgb(43,49, 44)
     background-color: gray;
     border: 1px solid red
     }
@@ -18,3 +18,8 @@
     em{
     font-family: monospace;
     }
+    body{
+    background-color:antiquewhite ;
+    text-decoration: none;
+    }
+
