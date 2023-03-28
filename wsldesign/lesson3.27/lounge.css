@@ -3,10 +3,7 @@ body {
 	font-family: Verdana, Helvetica, Arial;
 	font-size: small; /* 新的属性值，请自行了解 */
 	font-family: Verdana, Helvetica, Arial;
-  line-height: 1.9em;
-  font-style: italic;
-  color: #444444;
-  font-family: Georgia, 'Times New Roman', Times, serif;
+  
 }
 
 h1, h2 {
@@ -39,5 +36,31 @@ h2 {
   border-style:        dashed;
   background-color:    #a7cece;
   padding:             25px; 
+  padding-left: 80px;
   margin:              30px; 
+  margin-right: 250px;
+  line-height: 1.9em;
+  font-style: italic;
+  color: #444444;
+  font-family: Georgia, 'Times New Roman', Times, serif;
+  background-image: url(../lesson3.27/images/background.gif);
+  background-repeat: no-repeat;
+  background-position: top left;
+
+}
+
+#guarantee{
+border-style: dashed;
+border-color: white;
+border-top-right-radius: 2em;
+border-bottom-left-radius: 2em;
+}
+
+#ttt{
+border-style: double;
+border-radius: 200px;
+width: 200px;
+height: 200px;
+line-height: 200px;
+text-align: center;
 }
