@@ -30,7 +30,7 @@ h2 {
 	font-size: 1.3em;
 }
 
-#guarantee {
+.guarantee {
   border-color:        white;
   border-width:        1px;
   border-style:        dashed;
@@ -49,18 +49,23 @@ h2 {
 
 }
 
-#guarantee{
+.guarantee{
 border-style: dashed;
 border-color: white;
 border-top-right-radius: 2em;
 border-bottom-left-radius: 2em;
 }
 
-#ttt{
-border-style: double;
-border-radius: 200px;
+.elixirs{
+border-width: thin;
+border-style: solid;
+border-color: #007e7e;
 width: 200px;
-height: 200px;
-line-height: 200px;
-text-align: center;
+padding-right: 20px;
+padding-bottom: 20px;
+padding-left: 20px;
+margin-left: 20px;
+background-image: url(images/cocktail.gif);
+background-repeat: repeat-x;
+text-align: center; 
 }
