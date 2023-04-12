@@ -1,0 +1,73 @@
+/* .left {
+	margin-right: 10px;
+}
+
+.right {
+	margin-left: 20px;
+}
+
+.ruler {
+	display: inline-block;
+	width: 30px;
+} */
+
+div.block {
+	width: 49vw;
+	height: 20vh;
+	border: 2px solid black;
+}
+
+div.right {
+	float: right;
+}
+
+div.top {
+	margin-bottom: 10px;
+}
+
+div.bottom {
+	margin-top: 20px;
+}
+
+div.ruler {
+	height: 20px;
+}
+
+.one{
+background-color: blue;
+width: 40vw;
+height: 20VH;
+margin: 30px;
+}
+
+.oneone{
+  background-color: aqua;
+  width: 20vw;
+  height: 10vh;
+  margin: 10px;
+}
+
+.two{
+background-color: red;
+width: 40vw;
+height: 20vh;
+margin: 30px;
+border: 1px solid black;
+}
+
+.twotwo{
+  background-color: saddlebrown;
+  width: 20vw;
+  height: 10vh;
+  margin: 10px;
+}
+
+.float-block {
+	width: 20px;
+}
+
+.ttt{
+width: 20vw;
+border: 1px solid black;
+float: right;
+}
