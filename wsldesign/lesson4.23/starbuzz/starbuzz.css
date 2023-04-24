@@ -11,11 +11,28 @@ body {
   background-color: #675c47;
 }
 
+.sprite-container {
+    width: 50%; /* 显示的宽度为图片一半 */ 
+    height: 100%; /* 图片高度 */
+    overflow: hidden; /* 隐藏溢出部分 */ 
+    background-image: url('img_navsprites.gif');
+}
+
+.header-logo {
+	background-position: 0px 0px; /* 没有任何偏移 */
+}
+
+.header-slogan {
+	background-position: -400px 0px; /* 向左偏移 */
+}
+
+
 .drinks {
   background-color: #efe5d0;
   padding: 15px;
   display: table-cell;
   vertical-align: top;
+  width: 280px;
 }
 
 .tableContainer {
@@ -77,4 +94,6 @@ a:visited {
   border-bottom:    thin dotted #675c47;
 }
 
-
+.headerSlogan{
+float: right;
+}
