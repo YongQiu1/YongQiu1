@@ -1,0 +1,9 @@
+body{
+  font-family: 'Ideal Sans A','Ideal Sans B',Helvetica,Arial,sans-serif;
+}
+
+ul li{
+  list-style-type: none;
+  font: inherit;
+  font-size: 100%;
+}
