@@ -1,21 +1,54 @@
 body{
   font-family: 'Ideal Sans A','Ideal Sans B',Helvetica,Arial,sans-serif;
+  padding: 0%;
+  margin: 0;
 }
 
-ul li{
-  
+
+
+
+.zhuye{
   list-style-type: none;
   font: inherit;
   font-size: 100%;
-  display: inline-block;
+  display: flex;
+  flex-wrap: wrap;
+  align-content: start;
+  /* flex-direction: column; */
+
 }
 
-ul img{
+.zhuye{
+  flex-shrink: 0;
+  flex-basis: 100vw;
+}
 
+.hua {
+  all:initial;
+  /* display: inline-block; */
+  flex-wrap: wrap;
+  margin-left:2.3vw ;
+  margin-bottom:50vh ;
+  flex-wrap: wrap;
+  display: inline;
   width: 20vw;
 }
 
+/* .hua > * {
+  flex-shrink: 0;
+  flex-basis: 100vw;
+} */
 
-.imgg.zp.zz a{
-  display: block;
+.zhuye img{
+  width: 22vw;
+
 }
+
+.zp{
+  width: 22vw;
+}
+
+.zz{
+  width: 22vw;
+}
+
