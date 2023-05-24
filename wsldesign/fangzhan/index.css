@@ -17,27 +17,34 @@ body{
   flex-basis: 100vw;
   flex-flow: column wrap;
   align-content: start;
+  max-width: 1350px;
+  margin: 0px auto;
+  height: 6450px;
+  /* width: 100vw; */
   /* flex-direction: column; */
     /* flex-shrink: 0; */
   /* transition: 1s linear; */
-  height: 695vh;
+  /* height: 695vh; */
 }
 
-@media screen and (max-width: 500px){
+/* @media screen and (min-width: 1000px){
   .zhuye{
-  height: 500px;
+    height: 6450px;
   }
-}
+  
+} */
 
 .hua {
   all:initial;
   /* display: inline-block; */
   flex-wrap: wrap;
   padding-left:2vw ;
-  padding-bottom:5vh ;
+  padding-bottom:12vh ;
   flex-wrap: wrap;
   display: inline;
-  width: 21vw;
+  
+  
+  
 }
 
 /* .hua > * {
@@ -48,18 +55,26 @@ body{
 .imgg{
   border-top: 1px solid black;
   padding-top: 3vh;
+  width: 100%;
+  height: 100%;
+  object-fit: fill;
+  /* width: 100%;
+  height: 100%;
+  object-fit: cover; */
 }
 
 .zhuye img{
-  width: 21vw;
-
+  width: 20vw;
+  /* object-fit: cover; */
 }
 
 .zp{
-  width: 21vw;
+  width: 20vw ;
+  /* object-fit: cover; */
 }
 
 .zz{
-  width: 21vw;
+  width: 20vw ;
+  /* object-fit: cover; */
 }
 
