@@ -20,7 +20,7 @@ a:link,a:hover,a:visited,a:active{
   flex-wrap: wrap;
   flex-basis: 100vw;
   flex-flow: column wrap;
-  height: 6700px;
+  height: 8000px;
   width: 1200px;
   /* align-items: center;
   align-self: center;
@@ -41,7 +41,7 @@ a:link,a:hover,a:visited,a:active{
 
 @media screen and (max-width: 1600px){
   .zhuye{
-  height: 6400px;
+  height: 6500px;
   }
 }
 
@@ -103,7 +103,7 @@ a:link,a:hover,a:visited,a:active{
   margin-top: 0%;
   padding-top:0 ;
   width: 20vw ;
-  font-size: 1.1vw;
+  font-size: 2vw;
   position: relative;
   bottom: 60px;
   /* object-fit: cover; */
@@ -116,7 +116,7 @@ a:link,a:hover,a:visited,a:active{
   margin-bottom: 0;
   /* all:initial; */
   width: 20vw ;
-  font-size:1vw ;
+  font-size:0.5vw ;
   position: relative;
   bottom: 50px;
   /* padding-bottom: 50px; */
@@ -172,7 +172,7 @@ a:link,a:hover,a:visited,a:active{
 .zss img{
   position: relative;
   left: 1vw;
-  width: 18vw;
+  /* width: 18vw; */
 }
 
 .ztt img{
@@ -181,8 +181,14 @@ a:link,a:hover,a:visited,a:active{
   width: 18vw;
 }
 
+
+
+
+
 ul.pagination {
-  display: inline-block;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
   padding: 0;
   margin: 0;
   text-align: center;
@@ -190,17 +196,57 @@ ul.pagination {
 
 ul.pagination li {display: inline;}
 
-.ppppp {
-  padding: 0;
-  margin: 0;
+ul.pagination li a {
   color: black;
-  display: flex;
-  justify-content: space-between;
-  flex-shrink: 0;
-  list-style: none;
+  float: left;
+  padding: 8px 16px;
+  text-decoration: none;
+
+  
 }
 
-.ooooo{
+/* .pagination {
+  border-top: solid gainsboro 1px;
+  margin-left: 50px;
+  margin-right:50px ;
+} */
+hr{
+  margin-left: 50px;
+  margin-right: 50px;
+  position: relative;
+  top: 10px;
+}
+
+
+
+
+.qian a{
+  margin-left: 50px;
+  color: antiquewhite;
+  /* border-top: solid gainsboro 1px ;   */
+  border-right: solid gainsboro 1px ;
+}
+
+.pagination .qian a{
+  color: #ccc;
+}
+
+
+.zhong a{
+  font-size: 1.2vw;
   display: flex;
-  font-size: ;
+  /* border-right: solid black 1px ; */
+  /* border-top: solid gainsboro 1px; */
+  border-left: solid gainsboro 1px;
+}
+
+.zuizui a{
+
+  border-right: solid gainsboro 1px ;
+}
+
+.hou a{
+  margin-right: 50px;
+  /* border-top: solid gainsboro 1px ;   */
+  border-left: solid gainsboro 1px ;  
 }
